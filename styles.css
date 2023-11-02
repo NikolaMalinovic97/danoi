@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Athelas';
+    src: url('fonts/Athelas-Font/Athelas-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Athelas', serif;
+}
+
+h3 {
+    font-size: 72px;
+}
+
+p {
+    font-size: 52px;
+}
+
+hr {
+    color: #7d6a31;
+    border: none;
+    height: 2px;
+    background-color: #7d6a31;
+}
+
+.banner {
+    margin-bottom: -4px;
+    width: 100vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #1a1917;
+    color: #f2ebda;
+    height: 100px;
+}
+
+.language-item {
+    font-size: 52px;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+}
+
+.drinks-and-food {
+    height: calc(100vh - (30vh + 100px));
+    display: flex;
+}
+
+.drinks {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    /* background-image: url('img/drinks.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: #1a1917;
+}
+
+.food {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    /* background-image: url('img/food.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: #1a1917;
+}
+
+.drinks-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: #7d6a31;
+    color: white;
+    height: 100px;
+}
+
+.drinks-menu-item {
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-items {
+    background-color: #f2ebda;
+    padding: 60px;
+}
+
+.menu-item-header {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
