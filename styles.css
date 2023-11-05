@@ -49,6 +49,7 @@ hr {
     width: 25vw;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .drinks-and-food {
