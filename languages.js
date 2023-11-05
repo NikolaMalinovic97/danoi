@@ -1,23 +1,23 @@
 const translations = {
-  english: {
+  ENG: {
     coffee: 'Coffee',
     juices: 'Juices',
     milkshakes: 'Milkshakes',
     cocktails: 'Cocktails',
   },
-  slovenian: {
+  SLO: {
     coffee: 'Kava',
     juices: 'Sokovi',
     milkshakes: 'Milkshake',
     cocktails: 'Koktajli',
   },
-  italian: {
+  ITA: {
     coffee: 'Caffè',
     juices: 'Succhi',
     milkshakes: 'Frappè',
     cocktails: 'Cocktail',
   },
-  german: {
+  DEU: {
     coffee: 'Kaffee',
     juices: 'Säfte',
     milkshakes: 'Milchshakes',
@@ -34,6 +34,18 @@ function changeLanguage(language) {
   });
 
   localStorage.setItem('selectedLanguage', language);
+  setSelectedClass(language)
+}
+
+function setSelectedClass(language) {
+  const languageButtons = document.querySelectorAll('.language-item');
+  languageButtons.forEach(button => {
+    if (button.innerHTML === language) {
+      button.classList.add('selected');
+    } else {
+      button.classList.remove('selected');
+    }
+  });
 }
 
 function loadLanguage() {

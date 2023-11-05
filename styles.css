@@ -36,7 +36,7 @@ hr {
 
 .languages {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
     background-color: #1a1917;
@@ -46,10 +46,16 @@ hr {
 
 .language-item {
     font-size: 52px;
-    width: 25vw;
+    width: 12vw;
     display: flex;
     justify-content: center;
     cursor: pointer;
+    border-top: transparent 10px solid;
+    border-bottom: transparent 10px solid;
+}
+
+.selected {
+    border-bottom: #7d6a31 10px solid;
 }
 
 .drinks-and-food {
