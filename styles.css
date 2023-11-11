@@ -122,4 +122,22 @@ hr {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
+    height: 111px;
+}
+
+.menu-item-special {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-special-detail {
+    height: 111px;
+    display: flex;
+    align-items: center;
+}
+
+.special-detail {
+    font-size: 38px;
+    color: #5e5d5d;
+    height: 42.5px;
 }
