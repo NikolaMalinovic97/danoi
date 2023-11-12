@@ -1,6 +1,8 @@
 const translations = {
   ENG: {
     coffee: 'Coffee',
+    specialMilkCoffee: 'Coffee with special milk',
+    specialMilkCoffeeDetails: 'soy, almond, rice, coconut, lactose free',
     coffeeSpecial: 'barley coffee / decaffeinated coffee',
     espresso: 'Espresso',
     macchiato: 'Macchiato',
@@ -22,6 +24,8 @@ const translations = {
   },
   SLO: {
     coffee: 'Kave',
+    specialMilkCoffee: 'Kave s posebnim mlekom',
+    specialMilkCoffeeDetails: 'soja, mandelj, riž, kokos, brez laktoze',
     coffeeSpecial: 'ječmenova / brezkofeinska',
     espresso: 'Espresso',
     macchiato: 'Macchiato',
@@ -43,6 +47,8 @@ const translations = {
   },
   ITA: {
     coffee: 'Caffè',
+    specialMilkCoffee: 'Caffè con latte vario',
+    specialMilkCoffeeDetails: 'soia, mandorle, riso, cocco, senza lattosio',
     coffeeSpecial: 'caffè d’orzo / caffè decaffeinato',
     espresso: 'Espresso',
     macchiato: 'Macchiato',
@@ -64,6 +70,8 @@ const translations = {
   },
   DEU: {
     coffee: 'Kaffee',
+    specialMilkCoffee: 'Kaffee mit Spezialmilch',
+    specialMilkCoffeeDetails: 'Soja, Mandel, Reis, Kokosnuss, laktosefrei',
     coffeeSpecial: 'Gerstenkaffee / entkoffeinierter Kaffee',
     espresso: 'Espresso',
     macchiato: 'Macchiato',
