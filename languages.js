@@ -129,6 +129,14 @@ const translations = {
   },
 };
 
+function setDefaultLanguage() {
+  if (localStorage.getItem('selectedLanguage') === null) {
+    changeLanguage('SLO');
+  }
+}
+
+window.onload = setDefaultLanguage;
+
 function changeLanguage(language) {
   const elements = document.querySelectorAll('[data-translate]');
 
