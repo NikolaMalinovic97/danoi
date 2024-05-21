@@ -129,14 +129,6 @@ const translations = {
   },
 };
 
-function setDefaultLanguage() {
-  if (localStorage.getItem('selectedLanguage') === null) {
-    changeLanguage('SLO');
-  }
-}
-
-window.onload = setDefaultLanguage;
-
 function changeLanguage(language) {
   const elements = document.querySelectorAll('[data-translate]');
 
@@ -164,6 +156,9 @@ function loadLanguage() {
   const selectedLanguage = localStorage.getItem('selectedLanguage');
   if (selectedLanguage) {
     changeLanguage(selectedLanguage);
+  } else {
+    // if none language is selected then set default
+    changeLanguage('SLO');
   }
 }
 
